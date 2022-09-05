@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "strict": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "declaration": true,
+    "esModuleInterop": true,
+    "target": "ES2017",
+    "types": [
+      "@types/jest"
+    ]
+  },
+  "lib": [
+    "ES2017"
+  ],
+  "include": [
+    "packages/**/src/**/*"
+  , "packages/**/__tests__/**/*"
+],
+  "exclude": [
+    "node_modules",
+  ]
+}
